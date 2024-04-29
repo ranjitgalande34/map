@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ProfileMap from './ProfileMap'; 
 import ProfileDetails from './ProfileDetails'; 
-import style from "./Count.css"
+import style from "./ProfileViewer.css"
 
 function ProfileViewer() {
   // State variables
