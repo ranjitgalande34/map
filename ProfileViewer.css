@@ -1,0 +1,55 @@
+/* Styles for Profile Viewer */
+.profile-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .profile-list > div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .profile-list > div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .profile-list img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .profile-list h2 {
+    margin-top: 0;
+  }
+  
+  /* Styles for Profile Details */
+  .profile-details {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  /* Styles for Map */
+  .profile-map {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  /* Styles for Summary button */
+  .summary-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .summary-button:hover {
+    background-color: #0056b3;
+  }
+  
